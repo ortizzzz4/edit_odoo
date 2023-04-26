@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+          <template id="layout_mod_ico" inherit_id="website.layout" name="layout mod ico" priority="17">
+<xpath expr="//link" position="replace">
+        <link rel="shortcut icon" href="/rocket_digital_sv/static/src/img/favicon.ico" type="image/x-icon"/>
+    </xpath>
+</template>
+    </data>
+</odoo>
+  

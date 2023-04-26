@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <template id="title_inherit" name="title new" inherit_id="web.layout">
+        <xpath expr="//title" position="replace">
+            <title t-esc="title or 'Rocket'"/>
+        </xpath>
+    </template>
+    <template id="title_inhe_mail" name="mail title" inherit_id="mail.discuss_public_layout">
+        <xpath expr="//title" position="replace">
+            <title t-esc="title or 'Rocket'"/>
+        </xpath>
+    </template>
+    <template id="asssts_backend_title" name="title backend" inherit_id="web.layout">
+        <xpath expr="." position="inside">
+             <script type="text/javascript" src="/rocket_digital_sv/static/src/js/web_client.js"/>
+        </xpath>
+    </template>
+</odoo>
